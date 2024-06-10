@@ -1,0 +1,408 @@
+body {
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.containercp{
+    width: 100%;
+    height: 55px;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    align-items: center;
+}
+
+.width70 {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.width90{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+.width100 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.height50 {
+    width: 100%;
+    height:50px;
+    margin: auto;
+}
+
+.h_top{
+    width: 100%;
+    height: 50%;
+    border-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.h_menu{
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+
+}
+
+.h_menu>ul{
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+
+.containercp ul{
+    align-items: center;
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.banner{
+    width :100%;
+    height: 500px;
+    background-size: cover;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.img_img{
+    width: 530%;
+    height: 530px;
+    background-color: aqua;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+#Login{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Login>div{
+    padding:5px;
+}
+
+#Icon{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+#Icon>div{
+    padding: 0 5px;
+}
+.section{
+    width: 100%;
+    height: 1200px;
+    background-image: url(backgrounds.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+button{
+    color: green;
+    padding:10px;
+    border-radius: 5px;
+    border-color: green;
+    padding: 10px;
+    right: 20px;
+}
+
+.section-container {
+    display:flex;
+    padding: 50px 0;
+    justify-content: space-between;
+}
+
+.left_to_right {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.centerText{
+    height: 100%;
+    width: 41%;
+    padding: 50px;
+    display:block; 
+}
+
+.address{
+    width: 100%;
+    height:500px;
+    background-color: green;
+}
+
+footer{
+    width: 100%;
+    height:auto;
+    background-color: white;
+    margin:0;
+    align-items: center;
+}
+
+.select-box {
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.select-box label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#options {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.list-box {
+    margin-top: 20px;
+    width: 50%;
+    height: 100%;
+    background-color: green
+    
+}
+
+.list-box h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.list-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    max-height: 150px; /* Chiều cao cố định cho danh sách */
+    overflow-y: auto; /* Thanh cuộn dọc khi danh sách vượt quá chiều cao */
+    border: 1px solid #ccc; /* Đường viền cho danh sách */
+    padding: 10px;
+    box-sizing: border-box; /* Đảm bảo padding không làm tăng kích thước */
+}
+
+.list-box ul li {
+    margin-bottom: 5px;
+    padding-left: 25px; /* Khoảng cách giữa hình ảnh và văn bản */
+    background-image: url('store.png'); /* Đường dẫn tới hình ảnh */
+    background-size: 20px 20px; /* Kích thước của hình ảnh */
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    background-position: left center; /* Vị trí của hình ảnh */
+    background-color: green;
+}
+
+#storeaddress{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#storeaddress button {
+    width: 50%;
+    height: 50%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 100%;
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+    justify-content: flex-end;
+}
+
+
+.logo-list {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo-list li {
+    padding: 0px 10px;
+}
+
+.emailInput {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+.button{
+    color: white;
+    background: none !important;
+    border: 1px solid gainsboro;
+    padding: 7px 12px;
+    border-radius: 4px;
+}
+
+
+
+.h_menu a:hover, .dropdown.hover .dropbtn{
+    background-color: white;
+    color: green;
+}
+
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    min-height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(black);
+    z-index: 1;
+    margin-top: 10px;
+}
+
+.dropdown_menu a {
+    color: black;
+    padding: 12px;
+    display: block;
+    text-align: center;
+}
+.dropdown_menu a:hover {
+    background-color: white;
+
+}
+
+.h_menu li:hover .dropdown_menu {
+    display: block;
+}
+
+.h_menu ul {
+    list-style-type: none;
+}
+
+.h_menu li {
+    float: left;
+    position: relative;
+    
+}
+.product-item {
+    position: relative;
+    text-align: center;
+    transition: margin 0.3s;
+    border-radius: 5px;
+    padding: 30px 15px;
+    min-height: 380px;
+    max-height: 380px;
+}
+.item-wrapper {
+    padding: 30px 15px;
+    display: block;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+.img-responsive {
+    width: 180px;
+    margin-bottom: 15px;
+}
+.copyright{
+    text-align: center;
+    background-color: black;
+    color: #8d8d8d;
+    font-size: 0.7em;
+    line-height: 1.6;
+    padding: 2px 15px 3px;
+}
+.product{
+    width: 100%;
+    height: 700px;
+
+}
+.healing{
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #0C713D;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.product-itemtra{
+    position: relative;
+    text-align: center;
+    transition: margin 0.3s;
+    border-radius: 5px;
+    padding: 30px 15px;
+    min-height: 380px;
+    max-height: 380px;
+}
+.item-wrappertra{
+    padding: 30px 15px;
+    display: block;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+.imgtra{
+    width: 180px;
+    height: 180px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+}
+.product-gif{
+    width: 100%;
+    height: 250px;
+}
+.separator-icon-gray{
+    background: url(icon_tealeaves\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: #888888;
+}
+
+
+.changeColor{
+    color: black;
+}
+
+.changeColor:hover{
+    color: green;
+}
